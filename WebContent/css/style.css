@@ -1,0 +1,70 @@
+body{
+  background-image: url("tiny.png");
+  color: #172b4d;
+}
+
+table{
+  margin: 20px auto auto auto;
+  border: 1px;
+  border-radius: 1px;
+}
+
+tr{
+  padding: 1px auto auto auto;
+}
+
+input[type="submit"] {
+  border: 1px solid rgba(191, 216, 227, .8);
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(54, 134, 169);
+  font-size: 110%;
+}
+input[type="text"],
+input[type="password"] {
+  border: 1px solid rgba(191, 216, 227, .8);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 110%;
+  width: 100%;
+}
+
+.button {
+    background-color: 	#029edb; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   /* -webkit-transition-duration: 0.4s; /* Safari */
+   /* transition-duration: 0.4s;*/
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.3),0 17px 50px 0 rgba(0,0,0,0.19);
+    /*color: red;*/
+}
+
+.button1:active {
+    margin: absolute; /*1px 1px 0;*/
+    box-shadow: -1px -1px 1px;
+    /*    background-image: linear-gradient(to top, #61b4e6, white/* #dfdddd*/);*/
+    background-color: #61b4e6;
+}
+.box{
+  margin: auto 30% 30% 30%;
+  padding: 40px;
+  background: #ffffff;
+  border: 1px;
+  border-color: #0d0d0d;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 5px 5px 10px #d9d9d9;
+}
